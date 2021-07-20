@@ -10,4 +10,7 @@ Park.prototype.numberOfDinosaurs = function (){
     return this.collection_of_dinosaurs.length;
 }
 
+Park.prototype.addDinosaur = function (dinosaur){
+    this.collection_of_dinosaurs.push(dinosaur)
+}
 module.exports = Park;
